@@ -1,0 +1,33 @@
+{
+  "name": "ultima-scraper",
+  "version": "0.1.0",
+  "description": "Ultima Online scraping.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvim/ultima-online-scraper.git"
+  },
+  "keywords": [
+    "\"Ultima",
+    "Online\""
+  ],
+  "author": "Mauricio Alvim <mauricioalvimweb@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvim/ultima-online-scraper/issues"
+  },
+  "homepage": "https://github.com/alvim/ultima-online-scraper#readme",
+  "dependencies": {
+    "@types/cheerio": "^0.22.29",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "html-table-to-json": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.14.0",
+    "tslib": "^2.3.0"
+  }
+}
