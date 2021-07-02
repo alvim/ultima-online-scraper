@@ -24,7 +24,9 @@
     "@types/cheerio": "^0.22.29",
     "axios": "^0.21.1",
     "cheerio": "^1.0.0-rc.10",
-    "html-table-to-json": "^1.0.0"
+    "html-table-to-json": "^1.0.0",
+    "node-table-to-csv": "^0.1.0",
+    "tabletojson": "^2.0.6"
   },
   "devDependencies": {
     "@types/node": "^15.14.0",
