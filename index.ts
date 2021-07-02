@@ -1,9 +1,6 @@
-import cheerio from 'cheerio'
+import * as cheerio from 'cheerio'
 import axios from 'axios'
-import HtmlTableToJson from 'html-table-to-json'
-// import { Tabletojson as tabletojson } from 'tabletojson'
-import tableToCsv from 'node-table-to-csv'
-import { compareDocumentPosition } from 'domutils'
+const HtmlTableToJson = require('html-table-to-json')
 
 const URL = 'https://www.uoguide.com/Soleil_Rouge'
 
@@ -39,7 +36,6 @@ const parseResults = (tables: any[]): Equipment[] => {
     }, {})
 
     const transformedProps = transform(props)
-    console.log(transformedProps)
     results = results.concat({ "Name": equipName, ...transformedProps })
 
     if (setBonus) {
@@ -47,23 +43,26 @@ const parseResults = (tables: any[]): Equipment[] => {
 
         if (isSetBonus.test(title)) {
             const setBonusProps = transform(props)
-            results = results.concat({ "Name": `${equipName} Full Set Bonus`, "From": equipName, setBonusProps})
+            results = results.concat({ "Name": `${equipName} Full Set Bonus`, "From": equipName, ...setBonusProps})
         }
     }
 
     return results
 }
 
-const main = async () => {
+exports.handler = async function (event, context, callback) {
     const response = await axios(URL)
     const $ = cheerio.load(response.data)
     
     const table = $('<table>').append($('#mw-content-text table:first-child table').clone()).html();
     
-    const data = HtmlTableToJson.parse(table)
-    console.log(data.results)
+    const data = new HtmlTableToJson(table)
     const parsed = parseResults(data.results)
-    console.log(parsed)
-}
 
-main()
+    const res = {
+        "statusCode": 200,
+        "body": JSON.stringify(parsed),
+        "isBase64Encoded": false
+    };
+    callback(null, res);
+}

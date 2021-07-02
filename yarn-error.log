@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/mauricioalvim/.nvm/versions/node/v12.16.1/bin/node /usr/local/bin/yarn add @types/node-table-to-csv
+  /Users/mauricioalvim/.nvm/versions/node/v12.16.1/bin/node /usr/local/bin/yarn add @types/copy-to-clipboard
 
 PATH: 
   /Users/mauricioalvim/.pyenv/shims:/Users/mauricioalvim/.pyenv/bin:/Users/mauricioalvim/.nvm/versions/node/v12.16.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/mauricioalvim/.pyenv/shims:/Users/mauricioalvim/.pyenv/bin:/Users/mauricioalvim/.nvm/versions/node/v12.16.1/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2fnode-table-to-csv: Not found
+  Error: https://registry.yarnpkg.com/@types%2fcopy-to-clipboard: Not found
       at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66987:18)
       at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140748:22)
       at Request.emit (events.js:311:20)
@@ -53,6 +53,7 @@ npm manifest:
       "@types/cheerio": "^0.22.29",
       "axios": "^0.21.1",
       "cheerio": "^1.0.0-rc.10",
+      "copy-to-clipboard": "^3.3.1",
       "html-table-to-json": "^1.0.0",
       "node-table-to-csv": "^0.1.0",
       "tabletojson": "^2.0.6"
@@ -195,6 +196,13 @@ Lockfile:
     integrity sha1-0dyXOSAxTfZ/vrlCI7TuNQI56Ws=
     dependencies:
       mimic-response "^1.0.0"
+  
+  copy-to-clipboard@^3.3.1:
+    version "3.3.1"
+    resolved "https://registry.yarnpkg.com/copy-to-clipboard/-/copy-to-clipboard-3.3.1.tgz#115aa1a9998ffab6196f93076ad6da3b913662ae"
+    integrity sha512-i13qo6kIHTTpCm8/Wup+0b1mVWETvu2kIMzKoK8FpkLkFxlt0znUAHcMzox+T8sPlqtZXq3CulEjQHsYiGFJUw==
+    dependencies:
+      toggle-selection "^1.0.6"
   
   core-util-is@~1.0.0:
     version "1.0.2"
@@ -548,6 +556,11 @@ Lockfile:
     dependencies:
       cheerio "^1.0.0-rc.5"
       got "^11.8.2"
+  
+  toggle-selection@^1.0.6:
+    version "1.0.6"
+    resolved "https://registry.yarnpkg.com/toggle-selection/-/toggle-selection-1.0.6.tgz#6e45b1263f2017fa0acc7d89d78b15b8bf77da32"
+    integrity sha1-bkWxJj8gF/oKzH2J14sVuL932jI=
   
   tslib@^2.2.0, tslib@^2.3.0:
     version "2.3.0"
