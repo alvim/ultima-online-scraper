@@ -1,0 +1,299 @@
+{
+    "Acolyte Armor Set": {
+        "components": {
+            "Greymist Armor (Arms)": "https://www.uoguide.com/Greymist_Armor_(Arms)",
+            "Greymist Armor (Chest)": "https://www.uoguide.com/Greymist_Armor_(Chest)",
+            "Greymist Armor (Gloves)": "https://www.uoguide.com/Greymist_Armor_(Gloves)",
+            "Greymist Armor (Leggings)": "https://www.uoguide.com/Greymist_Armor_(Leggings)"
+        }
+    },
+    "Assassin Armor Set": {
+        "components": {
+            "Assassin Armor (Arms)": "https://www.uoguide.com/Assassin_Armor_(Arms)",
+            "Assassin Armor (Chest)": "https://www.uoguide.com/Assassin_Armor_(Chest)",
+            "Assassin Armor (Gloves)": "https://www.uoguide.com/Assassin_Armor_(Gloves)",
+            "Assassin Armor (Leggings)": "https://www.uoguide.com/Assassin_Armor_(Leggings)"
+        }
+    },
+    "Hunter's Garb Armor Set": {
+        "components": {
+            "Hunter's Garb (Arms)": "https://www.uoguide.com/Hunter%27s_Garb_(Arms)",
+            "Hunter's Garb (Chest)": "https://www.uoguide.com/Hunter%27s_Garb_(Chest)",
+            "Hunter's Garb (Gloves)": "https://www.uoguide.com/Hunter%27s_Garb_(Gloves)",
+            "Hunter's Garb (LeggingsX)": "https://www.uoguide.com/Hunter%27s_Garb_(Leggings)"
+        }
+    },
+    "Juggernaut Set": {
+        "components": {
+            "Evocaricus": "https://www.uoguide.com/Evocaricus",
+            "Maleki's Honor": "https://www.uoguide.com/Maleki%27s_Honor"
+        }
+    },
+    "Mage Armor Set": {
+        "components": {
+            "Elven Leafweave (Arms)": "https://www.uoguide.com/Elven_Leafweave_(Arms)",
+            "Elven Leafweave (Chest)": "https://www.uoguide.com/Elven_Leafweave_(Chest)",
+            "Elven Leafweave (Gloves)": "https://www.uoguide.com/Elven_Leafweave_(Gloves)",
+            "Elven Leafweave (Leggings)": "https://www.uoguide.com/Elven_Leafweave_(Leggings)"
+        }
+    },
+    "Marksman Item Set": {
+        "components": {
+            "Feathernock": "https://www.uoguide.com/Feathernock",
+            "Swiftflight": "https://www.uoguide.com/Swiftflight"
+        }
+    },
+    "Monstrous Interred Grizzle Armor Set": {
+        "components": {
+            "Gauntlets Of The Grizzle": "https://www.uoguide.com/Gauntlets_Of_The_Grizzle",
+            "Greaves Of The Grizzle": "https://www.uoguide.com/Greaves_Of_The_Grizzle",
+            "Skull Helm Of The Grizzle": "https://www.uoguide.com/Skull_Helm_Of_The_Grizzle",
+            "Tunic Of The Grizzle": "https://www.uoguide.com/Tunic_Of_The_Grizzle",
+            "Vambraces Of The Grizzle": "https://www.uoguide.com/Vambraces_Of_The_Grizzle"
+        }
+    },
+    "Myrmidon Armor Set": {
+        "components": {
+            "Myrmidon Armor (Arms)": "https://www.uoguide.com/Myrmidon_Armor_(Arms)",
+            "Myrmidon Armor (Chest)": "https://www.uoguide.com/Myrmidon_Armor_(Chest)",
+            "Myrmidon Armor (Gloves)": "https://www.uoguide.com/Myrmidon_Armor_(Gloves)",
+            "Myrmidon Armor (Gorget)": "https://www.uoguide.com/Myrmidon_Armor_(Gorget)",
+            "Myrmidon Armor (Helm)": "https://www.uoguide.com/Myrmidon_Armor_(Helm)",
+            "Myrmidon Armor (Leggings)": "https://www.uoguide.com/Myrmidon_Armor_(Leggings)"
+        }
+    },
+    "Necromancer Armor Set": {
+        "components": {
+            "Death's Essence (Arms)": "https://www.uoguide.com/Death%27s_Essence_(Arms)",
+            "Death's Essence (Chest)": "https://www.uoguide.com/Death%27s_Essence_(Chest)",
+            "Death's Essence (Gloves)": "https://www.uoguide.com/Death%27s_Essence_(Gloves)",
+            "Death's Essence (Helm)": "https://www.uoguide.com/Death%27s_Essence_(Helm)",
+            "Death's Essence (Leggings)": "https://www.uoguide.com/Death%27s_Essence_(Leggings)"
+        }
+    },
+    "Paladin Armor Set": {
+        "components": {
+            "Plate Of Honor (Arms)": "https://www.uoguide.com/Plate_Of_Honor_(Arms)",
+            "Plate Of Honor (Chest)": "https://www.uoguide.com/Plate_Of_Honor_(Chest)",
+            "Plate Of Honor (Gloves)": "https://www.uoguide.com/Plate_Of_Honor_(Gloves)",
+            "Plate Of Honor (Gorget)": "https://www.uoguide.com/Plate_Of_Honor_(Gorget)",
+            "Plate Of Honor (Helm)": "https://www.uoguide.com/Plate_Of_Honor_(Helm)",
+            "Plate Of Honor (Leggings)": "https://www.uoguide.com/Plate_Of_Honor_(Leggings)"
+        }
+    },
+    "Warrior Armor Set": {
+        "components": {
+            "Darkwood Chest": "https://www.uoguide.com/Darkwood_Chest",
+            "Darkwood Crown": "https://www.uoguide.com/Darkwood_Crown",
+            "Darkwood Gauntlets": "https://www.uoguide.com/Darkwood_Gauntlets",
+            "Darkwood Gorget": "https://www.uoguide.com/Darkwood_Gorget",
+            "Darkwood Leggings": "https://www.uoguide.com/Darkwood_Leggings",
+            "Darkwood Pauldrons": "https://www.uoguide.com/Darkwood_Pauldrons"
+        }
+    },
+    "Knight's Armor Set": {
+        "components": {
+            "Knight's Arms": "https://www.uoguide.com/Knight%27s_Arms",
+            "Knight's Bascinet": "https://www.uoguide.com/Knight%27s_Bascinet",
+            "Knight's Breastplate": "https://www.uoguide.com/Knight%27s_Breastplate",
+            "Knight's Breastplate (Female)": "https://www.uoguide.com/Knight%27s_Breastplate_(Female)",
+            "Knight's Close Helm": "https://www.uoguide.com/Knight%27s_Close_Helm",
+            "Knight's Gloves": "https://www.uoguide.com/Knight%27s_Gloves",
+            "Knight's Gorget": "https://www.uoguide.com/Knight%27s_Gorget",
+            "Knight's Legs": "https://www.uoguide.com/Knight%27s_Legs",
+            "Knight's Norse Helm": "https://www.uoguide.com/Knight%27s_Norse_Helm",
+            "Knight's Plate Helm": "https://www.uoguide.com/Knight%27s_Plate_Helm"
+        },
+        "pieces": 6
+    },
+    "Luck Jewelry Set (Bleue)": {
+        "components": {
+            "Etoile Bleue": "https://www.uoguide.com/Etoile_Bleue",
+            "Novo Bleue": "https://www.uoguide.com/Novo_Bleue"
+        }
+    },
+    "Luck Jewelry Set (Rouge)": {
+        "components": {
+            "Lune Rouge": "https://www.uoguide.com/Lune_Rouge",
+            "Soleil Rouge": "https://www.uoguide.com/Soleil_Rouge"
+        }
+    },
+    "Scout Armor Set": {
+        "components": {
+            "Scout's Circlet": "https://www.uoguide.com/Scout%27s_Circlet",
+            "Scout's Female Studded Armor": "https://www.uoguide.com/Scout%27s_Female_Studded_Armor",
+            "Scout's Small Plate Jingasa": "https://www.uoguide.com/Scout%27s_Small_Plate_Jingasa",
+            "Scout's Studded Bustier": "https://www.uoguide.com/Scout%27s_Studded_Bustier",
+            "Scout's Studded Gloves": "https://www.uoguide.com/Scout%27s_Studded_Gloves",
+            "Scout's Studded Gorget": "https://www.uoguide.com/Scout%27s_Studded_Gorget",
+            "Scout's Studded Leggings": "https://www.uoguide.com/Scout%27s_Studded_Leggings",
+            "Scout's Studded Sleeves": "https://www.uoguide.com/Scout%27s_Studded_Sleeves",
+            "Scout's Studded Tunic": "https://www.uoguide.com/Scout%27s_Studded_Tunic"
+        },
+        "pieces": 6
+    },
+    "Sorcerer Armor Set": {
+        "components": {
+            "Sorcerer's Female Armor": "https://www.uoguide.com/Sorcerer%27s_Female_Armor",
+            "Sorcerer's Gloves": "https://www.uoguide.com/Sorcerer%27s_Gloves",
+            "Sorcerer's Gorget": "https://www.uoguide.com/Sorcerer%27s_Gorget",
+            "Sorcerer's Hat": "https://www.uoguide.com/Sorcerer%27s_Hat",
+            "Sorcerer's Leggings": "https://www.uoguide.com/Sorcerer%27s_Leggings",
+            "Sorcerer's Skirt": "https://www.uoguide.com/Sorcerer%27s_Skirt",
+            "Sorcerer's Sleeves": "https://www.uoguide.com/Sorcerer%27s_Sleeves",
+            "Sorcerer's Tunic": "https://www.uoguide.com/Sorcerer%27s_Tunic"
+        },
+        "pieces": 6
+    },
+    "Virtue Armor Set": {
+        "components": {
+            "Arms of Compassion": "https://www.uoguide.com/Arms_of_Compassion",
+            "Breastplate of Justice": "https://www.uoguide.com/Breastplate_of_Justice",
+            "Cloak of Humility": "https://www.uoguide.com/Cloak_of_Humility",
+            "Gauntlets of Valor": "https://www.uoguide.com/Gauntlets_of_Valor",
+            "Gorget of Honesty": "https://www.uoguide.com/Gorget_of_Honesty",
+            "Helm of Spirituality": "https://www.uoguide.com/Helm_of_Spirituality",
+            "Legs of Honor": "https://www.uoguide.com/Legs_of_Honor",
+            "Sollerets of Sacrifice": "https://www.uoguide.com/Sollerets_of_Sacrifice"
+        }
+        
+    },
+    "Virtuous Epiphany Armor Set (Gargish)": {
+        "components": {
+            "Kilt of Virtuous Epiphany": "https://www.uoguide.com/Kilt_of_Virtuous_Epiphany",
+            "Earrings of Virtuous Epiphany": "https://www.uoguide.com/Earrings_of_Virtuous_Epiphany`",
+            "Breastplate of Virtuous Epiphany (Gargish)": "https://www.uoguide.com/Breastplate_of_Virtuous_Epiphany_(Gargish)",
+            "Arms of Virtuous Epiphany (Gargish)": "https://www.uoguide.com/Arms_of_Virtuous_Epiphany_(Gargish)",
+            "Necklace of Virtuous Epiphany": "https://www.uoguide.com/Necklace_of_Virtuous_Epiphany",
+            "Legs of Virtuous Epiphany (Gargish)": "https://www.uoguide.com/Legs_of_Virtuous_Epiphany_(Gargish)"
+        }
+    },
+    "Virtuous Epiphany Armor Set": {
+        "components": {
+            "Helm of Virtuous Epiphany": "https://www.uoguide.com/Helm_of_Virtuous_Epiphany",
+            "Gorget of Virtuous Epiphany": "https://www.uoguide.com/Gorget_of_Virtuous_Epiphany",
+            "Breastplate of Virtuous Epiphany": "https://www.uoguide.com/Breastplate_of_Virtuous_Epiphany",
+            "Arms of Virtuous Epiphany": "https://www.uoguide.com/Arms_of_Virtuous_Epiphany",
+            "Gauntlets of Virtuous Epiphany": "https://www.uoguide.com/Gauntlets_of_Virtuous_Epiphany",
+            "Legs of Virtuous Epiphany": "https://www.uoguide.com/Legs_of_Virtuous_Epiphany"
+        }
+    },
+    "Villainous Epiphany Armor Set": {
+        "components": {
+            "Helm of Villainous Epiphany": "https://www.uoguide.com/Helm_of_Villainous_Epiphany",
+            "Gorget of Villainous Epiphany": "https://www.uoguide.com/Gorget_of_Villainous_Epiphany",
+            "Breastplate of Villainous Epiphany": "https://www.uoguide.com/Breastplate_of_Villainous_Epiphany",
+            "Arms of Villainous Epiphany": "https://www.uoguide.com/Arms_of_Villainous_Epiphany",
+            "Gauntlets of Villainous Epiphany": "https://www.uoguide.com/Gauntlets_of_Villainous_Epiphany",
+            "Legs of Villainous Epiphany": "https://www.uoguide.com/Legs_of_Villainous_Epiphany"
+        }
+    },
+    "Villainous Epiphany Armor Set (Gargish)": {
+        "components": {
+            "Kilt of Villainous Epiphany": "https://www.uoguide.com/Kilt_of_Villainous_Epiphany",
+            "Earrings of Villainous Epiphany": "https://www.uoguide.com/Earrings_of_Villainous_Epiphany",
+            "Breastplate of Villainous Epiphany (Gargish)": "https://www.uoguide.com/Breastplate_of_Villainous_Epiphany_(Gargish)",
+            "Arms of Villainous Epiphany (Gargish)": "https://www.uoguide.com/Arms_of_Villainous_Epiphany_(Gargish)",
+            "Necklace of Villainous Epiphany": "https://www.uoguide.com/Necklace_of_Villainous_Epiphany",
+            "Legs of Villainous Epiphany (Gargish)": "https://www.uoguide.com/Legs_of_Villainous_Epiphany_(Gargish)"
+        }
+    },
+    "Fisherman's Armor Set": {
+        "components": {
+            "Fisherman's Tall Straw Hat": "https://www.uoguide.com/Fisherman%27s_Tall_Straw_Hat",
+            "Fisherman's Vest": "https://www.uoguide.com/Fisherman%27s_Vest",
+            "Fisherman's Trousers": "https://www.uoguide.com/Fisherman%27s_Trousers",
+            "Fisherman's Eelskin Gloves": "https://www.uoguide.com/Fisherman%27s_Eelskin_Gloves"
+        }
+    },
+    "Virtuoso's Armor Set": {
+        "components": {
+            "Virtuoso's Cap": "https://www.uoguide.com/Virtuoso%27s_Cap",
+            "Virtuoso's Tunic": "https://www.uoguide.com/Virtuoso%27s_Tunic",
+            "Virtuoso's Collar": "https://www.uoguide.com/Virtuoso%27s_Collar",
+            "Virtuoso's Kid Gloves": "https://www.uoguide.com/Virtuoso%27s_Kid_Gloves"
+        }
+    },
+    "Bestial Armor Set": {
+        "components": {
+            "Bestial Helm": "https://www.uoguide.com/Bestial_Helm",
+            "Bestial Leggings": "https://www.uoguide.com/Bestial_Leggings",
+            "Bestial Gorget": "https://www.uoguide.com/Bestial_Gorget",
+            "Bestial Gloves": "https://www.uoguide.com/Bestial_Gloves"
+        }
+    },
+    "Fisherman's Armor Set (Gargish)": {
+        "components": {
+            "Fisherman's Earrings": "https://www.uoguide.com/Fisherman%27s_Earrings",
+            "Fisherman's Chestguard": "https://www.uoguide.com/Fisherman%27s_Chestguard",
+            "Fisherman's Kilt": "https://www.uoguide.com/Fisherman%27s_Kilt",
+            "Fisherman's Arms": "https://www.uoguide.com/Fisherman%27s_Arms"
+        }
+    },
+    "Virtuoso's Armor Set (Gargish)": {
+        "components": {
+            "Virtuoso's Earpieces": "https://www.uoguide.com/Virtuoso%27s_Earpieces",
+            "Virtuoso's Kilt": "https://www.uoguide.com/Virtuoso%27s_Kilt",
+            "Virtuoso's Necklace": "https://www.uoguide.com/Virtuoso%27s_Necklace",
+            "Virtuoso's Armbands": "https://www.uoguide.com/Virtuoso%27s_Armbands"
+        }
+    },
+    "Bestial Armor Set (Gargish)": {
+        "components": {
+            "Bestial Earrings": "https://www.uoguide.com/Bestial_Earrings",
+            "Bestial Kilt": "https://www.uoguide.com/Bestial_Kilt",
+            "Bestial Necklace": "https://www.uoguide.com/Bestial_Necklace",
+            "Bestial Arms": "https://www.uoguide.com/Bestial_Arms"
+        }
+    },
+    "Blackrock Detector Event Set": {
+        "components": {
+            "Planesword": "https://www.uoguide.com/Planesword",
+            "Planeshield": "https://www.uoguide.com/Planeshield"
+        }
+    },
+    "Daemon Bone Armor Set": {
+        "components": {
+            "Daemon Bone Armor": "https://www.uoguide.com/Daemon_Bone_Armor",
+            "Daemon Bone Arms": "https://www.uoguide.com/Daemon_Bone_Arms",
+            "Daemon Bone Gloves": "https://www.uoguide.com/Daemon_Bone_Gloves",
+            "Daemon Bone Helmet": "https://www.uoguide.com/Daemon_Bone_Helmet",
+            "Daemon Bone Leggings": "https://www.uoguide.com/Daemon_Bone_Leggings"
+        }
+    },
+    "Phoenix Armor Set": {
+        "components": {
+            "A Nose Helm Of The Phoenix": "https://www.uoguide.com/A_Nose_Helm_Of_The_Phoenix",
+            "A Ringmail Tunic Of The Phoenix": "https://www.uoguide.com/A_Ringmail_Tunic_Of_The_Phoenix",
+            "Ringmail Gloves Of The Phoenix": "https://www.uoguide.com/Ringmail_Gloves_Of_The_Phoenix",
+            "Ringmail Leggings Of The Phoenix": "https://www.uoguide.com/Ringmail_Leggings_Of_The_Phoenix",
+            "Ringmail Sleeves Of The Phoenix": "https://www.uoguide.com/Ringmail_Sleeves_Of_The_Phoenix",
+            "Studded Gorget Of The Phoenix": "https://www.uoguide.com/Studded_Gorget_Of_The_Phoenix"
+        }
+    },
+    "Ranger Armor Set": {
+        "components": {
+            "A Studded Tunic, Ranger Armor": "https://www.uoguide.com/A_Studded_Tunic,_Ranger_Armor",
+            "Studded Gloves, Ranger Armor": "https://www.uoguide.com/Studded_Gloves,_Ranger_Armor",
+            "Studded Gorget, Ranger Armor": "https://www.uoguide.com/Studded_Gorget,_Ranger_Armor",
+            "Studded Leggings, Ranger Armor": "https://www.uoguide.com/Studded_Leggings,_Ranger_Armor",
+            "Studded Sleeves, Ranger Armor": "https://www.uoguide.com/Studded_Sleeves,_Ranger_Armor"
+        }
+    },
+    "Vanguard Invasion Set": {
+        "components": {
+            "Obsidian Blade": "https://www.uoguide.com/Obsidian_Blade",
+            "Chaos Shield (Vanguard)": "https://www.uoguide.com/Chaos_Shield_(Vanguard)"
+        }
+    },
+    "Armor of Initiation": {
+        "components": {
+            "Armor of Initiation (Sleeves)": "https://www.uoguide.com/Armor_of_Initiation_(Sleeves)",
+            "Armor of Initiation (Gloves)": "https://www.uoguide.com/Armor_of_Initiation_(Gloves)",
+            "Armor of Initiation (Tunic)": "https://www.uoguide.com/Armor_of_Initiation_(Tunic)",
+            "Armor of Initiation (Cap)": "https://www.uoguide.com/Armor_of_Initiation_(Cap)",
+            "Armor of Initiation (Leggings)": "https://www.uoguide.com/Armor_of_Initiation_(Leggings)",
+            "Armor of Initiation (Gorget)": "https://www.uoguide.com/Armor_of_Initiation_(Gorget)"
+        }
+    }
+}
