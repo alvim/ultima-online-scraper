@@ -1,22 +1,16 @@
 import fs from 'fs'
 import * as cheerio from 'cheerio'
 import axios from 'axios'
-// import * as jsonexport from "jsonexport/dist"
 const HtmlTableToJson = require('html-table-to-json')
 
 import slotsJson from './data/slots.json'
 import skills from './data/skills.json'
-import links from './data/broken-link.json'
+// import brokenLink from './data/broken-link.json'
+import links0 from './data/links.json'
+import links1 from './data/links-full-set.json'
+import links2 from './data/links-clean-up-britannia.json'
 
 const LEFT_HAND = 'Left Hand'
-
-// const URL = 'https://www.uoguide.com/Soleil_Rouge'
-// const URL = 'https://www.uoguide.com/Evocaricus_(Juggernaut_Set)'
-// const URL = 'https://www.uoguide.com/Greymist_Armor_(Arms)'
-// const URL = 'https://www.uoguide.com/Elven_Leafweave_(Leggings)'
-// const URL = 'https://www.uoguide.com/Assassin_Armor_(Arms)'
-// const URL = 'https://www.uoguide.com/Captain_Johne%27s_Blade'
-// const URL = 'https://www.uoguide.com/Assassin_Armor_Set'
 
 type Equipment = {
     [key: string]: string
@@ -139,7 +133,7 @@ const transform = (props, getter) => props.reduce((obj, rawProp) => {
     if (hasTwoPoints(prop)) {
         pair = prop.split(':').map(s => s.trim())
     }
-    else if (shouldIgnore(prop)) return prop
+    else if (shouldIgnore(prop)) return obj
     else if (isSkillBonus(prop)) {
         pair = prop.split(spaceAfterNumber).reverse()
     }
@@ -259,6 +253,14 @@ const main = async (URL: string) => {
 const loop = async () => {
     let res = []
     let err = {}
+    const links = {
+        ...links0,
+        ...links1,
+        ...links2
+        // ...brokenLink
+    }
+
+    console.log(`Fetching ${Object.keys(links).length} links...`)
 
     for (let item in links) {
         try {
@@ -277,7 +279,10 @@ const loop = async () => {
                 console.log(`${item}: fetch succeeded!`)
                 res = [...res, ...data]
             }
-        } catch({ response: { status, statusText } }) {
+        } catch(error) {
+            const status = error.response?.status
+            const statusText = error.response?.statusText || error.message
+
             err[item] = {
                 link: links[item],
                 error: {
